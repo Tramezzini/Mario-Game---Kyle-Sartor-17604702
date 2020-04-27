@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mario JSON Game - Kyle Sartor - 17604702</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css"> -->
+  <link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css"><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="css/mariostyle.css">
+</head>
+<body class="hm-gradient">
+  
+    <main class="container-fluid gamecon">
+        
+        <!--MDB Dropdowns-->
+		<div class="row justify-content-center rdycols">
+			
+		  <div class="col-xl-4 readycol">
+			<img id="p1image" class="readyimg readyimgleft" src="img/Mario.gif" alt="Italian">
+			  <h4 id="lefttitle" class="font-bold mb-2">Mario</h4>
+				  <h5 id="leftsubtitle" class="mb-2">Small and jumpy. Likes princesses.</h5>
+			</div>
+			
+		  <div class="col-xl-4">
+			  <div class="text-center darken-grey-text mb-4">
+              <h3 id="ftitle" class="font-bold mb-3">MARIO FIGHT!</h3>
+				  <h5 id="fsubtitle" class="mb-3">By Kyle Sartor</h5>
+              <a id="fightbtn" class="btn btn-danger fightbtn disabled" target="">CHOOSE YOUR FIGHTERS BELOW</a>
+			  <a id="resetbtn" class="btn btn-primary resetbtn" target="">Reset</a>
+          </div>
+		  </div>
+			
+		  <div class="col-xl-4 readycol">
+			<img id="p2image" class="readyimg readyimgright" src="img/Bowser.gif" alt="Italian">
+			  <h4 id="righttitle" class="font-bold mb-2">Bowser</h4>
+				  <h5 id="rightsubtitle" class="mb-2">Big and green, Hates princesses.</h5>
+			</div>
+	  </div>
+		
+<div class="container-fluid controlcard">
+      <div class="card mb-4">
+          <div class="card-body clearfix d-md-flex d-inline-block justify-content-center buttonbar">
+                    
+              <!-- Primary dropdown -->
+			  <div id="p1controls">
+			  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label id="p1special" class="btn btn-danger">
+    <input type="checkbox" autocomplete="off"> SPECIAL MOVE
+  </label>
+
+</div>
+			  
+              <div class="btn-group">
+				 
+                  <button id="p1btn" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PLAYER 1 FIGHTER</button>
+
+                  <div id="p1menu" class="dropdown-menu p1menu">
+                      <a id="p1mario" class="dropdown-item" href="#">Mario</a>
+                      <a class="dropdown-item" href="#">Bowser</a>
+                      <a class="dropdown-item" href="#">Princess Peach</a>
+                  </div>
+              </div>
+				 </div> 
+              <!-- MDB color dropdown -->
+			  <div id="p2controls">
+              <div class="btn-group">
+                  <button id="p2btn" class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PLAYER 2 FIGHTER</button>
+
+                  <div id="p2menu" class="dropdown-menu p2menu">
+                      <a class="dropdown-item" href="#">Mario</a>
+                      <a class="dropdown-item" href="#">Bowser</a>
+                      <a class="dropdown-item" href="#">Princess Peach</a>
+                  </div>
+              </div>
+			  
+			  		  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+
+  <label id="p2special" class="btn btn-danger">
+    <input type="checkbox" autocomplete="off"> SPECIAL MOVE
+  </label>
+ 
+</div>
+                             
+          </div>
+		  </div>
+      </div>
+            
+            
+
+    </div>
+        <!--MDB Dropdowns-->
+      
+    </main>
+  
+
+<!-- scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script> -->
+<script src="js/bootstrap-4.3.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
+<script src="js/mariojs.js"></script>
+</body>
+</html>

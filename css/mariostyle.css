@@ -1,0 +1,161 @@
+.hm-gradient {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	 justify-content: center;
+  align-items: center;
+	position: relative;
+	
+}
+
+.controlcard {
+	position: relative;
+	margin-top: 60px;
+
+}
+
+.readycol {
+	
+}
+
+.gamecon {
+	 margin: 0 auto;
+	 position: absolute;
+     top: 50%;
+	 transform: translateY(-50%);
+	
+}
+.navbar .dropdown-menu a:hover {
+    color: #616161 !important;
+}
+.darken-grey-text {
+    color: #2E2E2E;
+}
+
+.rdycols {
+	
+	margin-top: 0px;
+}
+
+.readyimg {
+	padding: 20px;
+	width: 250px;
+	height: 250px;
+    
+}
+
+.readyimgright {
+	margin-right: 100px;
+	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+	
+}
+
+.readyimgleft {
+	margin-left: 100px;
+}
+
+#lefttitle, #leftsubtitle {
+	margin-left: 100px;
+}
+
+#righttitle, #rightsubtitle {
+	margin-right: 100px;
+}
+
+.rdycols {
+	text-align: center;
+}
+
+.buttonbar {
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+}
+
+.fightbtn {
+	margin-top: 60px;
+}
+
+.resetbtn {
+	margin-top: 60px;
+	display: none;
+}
+
+#p1controls {
+	margin-right: 10vw;
+}
+
+#ftitle {
+	margin-top: 40px;
+}
+
+
+@media (max-width: 1199.98px) {
+ 	
+	#p1controls {
+	margin-right: 100px;
+}
+	.readyimgright {
+	margin: 0px;
+}
+
+.readyimgleft {
+	margin: 0px;
+	margin-top: 100px;
+}
+	
+#lefttitle, #leftsubtitle {
+	margin-left: 0px;
+}
+
+#righttitle, #rightsubtitle {
+	margin-right: 0px;
+}
+
+.fightbtn {
+	margin-top: 30px;
+}
+
+.resetbtn {
+margin-top: 30px;
+}
+
+}
+
+#p1special {
+	display: none;
+	
+}
+
+#p2special {
+	display: none;
+}
+
+
+@media (max-width: 767.98px) {
+ 
+	#p1controls {
+	margin-right: 0px;
+		margin-left: 0px;
+		margin-top: 10px;
+		width: 100%;
+}
+	
+	#p2controls {
+	margin-right: 0px;
+		margin-left: 0px;
+		margin-top: 10px;
+		width: 100%;
+}
+	
+.readyimgleft {
+	margin: 0px;
+	margin-top: 200px;
+}
+}
+
+#resetbtn{
+	display: none;
+}
